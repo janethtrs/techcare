@@ -70,11 +70,17 @@ li{
 .layout{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
+
 }
 
 .patientProfile{
     display: flex;
     margin-left: 20px;
+    margin-top: 30px;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: space-between;
 }
 
 .patients{
@@ -86,9 +92,6 @@ li{
 }
 
 .labelPatient{
-    margin: 20px;
-}
-
-.searchIcon{
-    align-self: end;
+    margin-left: 20px;
+    margin-top: 20px;
 }
