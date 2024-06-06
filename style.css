@@ -74,13 +74,14 @@ li{
 
 }
 
-.patientProfile{
+.patient-profile{
     display: flex;
     margin-left: 20px;
     margin-top: 30px;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 10px;
     justify-content: space-between;
+    text-align: left;
 }
 
 .patients{
@@ -94,4 +95,8 @@ li{
 .labelPatient{
     margin-left: 20px;
     margin-top: 20px;
+}
+
+.searchIcon{
+    margin-left: 100px;
 }
