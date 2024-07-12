@@ -69,8 +69,7 @@ li{
 
 .layout{
     display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
 }
 
@@ -79,9 +78,6 @@ li{
     margin-left: 20px;
     margin-top: 30px;
     align-items: center;
-    margin-right: 10px;
-    justify-content: space-between;
-    text-align: left;
 }
 
 .patients{
@@ -90,13 +86,21 @@ li{
     font-weight: bold;
     font-size: 24px;
     margin-left: 18px;
+    width: 367px;
 }
+
+.history{
+    background-color: white;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 18px;
+    width: 766px;
+}
+
 
 .labelPatient{
     margin-left: 20px;
     margin-top: 20px;
 }
 
-.searchIcon{
-    margin-left: 100px;
-}
